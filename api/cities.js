@@ -4,7 +4,7 @@ import path from 'path';
 export default function handler(req, res) {
   try {
     // Construct the path to the cities.json file
-    const filePath = path.join(process.cwd(), 'data', 'cities.json'); // Ensure the path is correct
+    const filePath = path.join(process.cwd(), 'data', 'cities.json'); 
 
     // Read the cities.json file
     const fileContents = readFileSync(filePath, 'utf8');
