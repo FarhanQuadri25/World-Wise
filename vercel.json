@@ -1,4 +1,6 @@
 {
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/json-server.js" }],
-  "builds": [{ "src": "api/json-server.js", "use": "@vercel/node" }]
-}
+    "routes": [
+      { "src": "/api/cities", "dest": "/api/cities.js" }
+    ]
+  }
+  
