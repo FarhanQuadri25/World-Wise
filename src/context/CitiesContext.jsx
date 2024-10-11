@@ -7,7 +7,7 @@ import {
 } from "react";
 
 const CitiesContext = createContext();
-const BASE_URL = "http://localhost:3000";
+const BASE_URL = "https://world-wise-z7n1.vercel.app/";
 
 const initialState = {
   cities: [],
